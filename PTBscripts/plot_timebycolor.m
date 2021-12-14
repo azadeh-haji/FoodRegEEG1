@@ -1,0 +1,9 @@
+function handle = plot_timebycolor(x, y, c)
+ 
+handle = surface( ...
+    [x(:), x(:)], ...
+    [y(:), y(:)], ...
+    [c(:), c(:)], ...% the colour vector
+    'EdgeColor', 'flat', ...  % colour the edges with flat shading according to the colour vector
+    'FaceColor', 'none'  ...% don't colour the face (which is zero area)
+);
