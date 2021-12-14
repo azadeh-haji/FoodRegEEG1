@@ -5,6 +5,6 @@ We often consider multiple factors when we make value-based decisions. For examp
 
 ### Methods
 #### code
-[runStudy](PTBscripts/runStudy)
+[runStudy](PTBscripts/runStudy.m)
 
 ### Results
